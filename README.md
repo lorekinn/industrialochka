@@ -1,2 +1,0 @@
-# industrialochka
-industrial
