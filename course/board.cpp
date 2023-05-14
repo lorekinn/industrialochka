@@ -40,6 +40,12 @@ void Board::Move(int* x, int* y)
 			while (getchar() != '\n') {}
 			continue;
 		}
+		if (*x > SIDE-1 || *y > SIDE-1)
+		{
+			printf("Введенные числа не должны превышать %d. Попробуйте снова.\n", SIDE-1);
+			continue;
+		}
+
 		break;
 	}
 }
